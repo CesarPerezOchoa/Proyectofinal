@@ -1,64 +1,363 @@
-*{
-
-	margin:  0;
+*{	margin:  0;
 	padding: 0;
 
 }
 
+font{ font-family: Microsoft Sans Serif;}
+
 #contenedor{ width: 100%;
-			 height: 1700px;
+			 height: 1000px;
 			 background: #FF6A6A;
 			 
-	   }
+			 
+			  }
 
 
 
 #cabesera{ height: 10%;
-           background: #B8B8B8;
-         } 
+
+		background: #FFC600;
+		sabackground: linear-gradient(90deg, #FFFFFF,  #FF7800 50%);}
 
 
-		#header {position:  relative;
-                           left: 5%;
-			   top: 22%;
-			   height:50%;
-			   width: 20%;
-		
-                        margin: 5px auto;
-			float: left;
-			background: #92FF87;
-			  }
+		#header{position:  relative;
+
+				background: url(Ranked.png);
+				background-size: 70px 70px;
+				background-repeat: no-repeat ;
+				background-position: top ;
+				
+				top: 10%;
+				height:70%;
+				width: 10%;
+			
+				float: left;
+				
+				}
+
+				  	#titulo{ position: absolute;
+			  				margin: 25px 120px;
+			  				float: right;
+			  				height: 50px;
+			  				width: 300px;
+			  				background: url(titulo.png);
+							background-size: 300px 50px;
+							background-repeat: no-repeat;
+			  				}
+
+				 
 
 		#nav{ position:  relative;
-			  top: 22%;
+			  top:20%;
 			  right: 5%;	
-			  height: 50%;
+			  height: 40%;
 			  width: 28%;
+			  border-radius: 1em;
+			  background: #FFFFFF;
+			  float: right;		 
+	  		}
 
-                      background: #4EFFF9;
-		      float: right;		 
-		      margin: 5px;
-                     }
+	  				.Nav_option{ margin-right: 0px; 
+
+	  							position: relative;
+	  							text-align: center;	  							
+
+	  							float:left;
+
+	  							height:100%;
+	  							width:15%;	
+
+	  								
+	  								}
 
 
-#contenido { height: 70%;
-	     background:  #949494;
-	     margin: 20px auto;
-	    }
+	  							.texto_nav{position: absolute;
+	  									   top: 13px;
+	  									   left: 15px;
+	  									   	
+
+	  							}
+
+	  							.texto_nav1{position: absolute; 
+	  										top:10px;
+	  										left: 20px;
+	  											
+
+	  							}	
+
+	  				
+	  							
+
+	  				.Nav_option:hover > .capa{ position: absolute;
+	  						
+	  						width: 100%;
+	  					   	height: 100%;
+
+	  					   	transition: all 500ms ease-out;	
+
+	  					   	top: 0px;
+	  					   	left: 10px;	 
+			  				
+			  				background: #395A86;
+			  				opacity:0.2;
+			  				
+
+			  				}
+		
 
 
-#footer{ height: 10%;
-	 background: #B7B7B7;	
-       }
+			  								
 
-#aside{ height: 100%;
-	width: 10%;
-	background: #FF0000; 
-	margin: 2px;
-	border-radius: 1em;
-	float: left;}
 
-#section{ height: 100%;
-	  width: 89%;
-	  background:#FFD7D7;
-	  float: right;	}
+
+
+#contenido{ height:100%;
+			background:  #FFFFFF;
+
+			
+
+
+}
+
+
+
+#aside{ position: relative;
+		height: 100%;
+		width: 15%;
+		background: #CACACA; 
+		
+		
+		float: left;}
+
+#section{ position: relative;
+		  height: 80%;
+		  width: 84%;
+		  background:#FFFFFF;
+		  margin-top: 10px;
+		  margin-left:10px;	
+		  border-radius: 1em;
+		  float: left;	}
+
+
+
+
+		  .BoxSection{  width: 930px;
+		  				height: 352px; 
+		  				position: relative;
+		  				float: center;	
+						margin: auto;
+						padding: 50px;	  		  				
+  		  				background: FFAFAF;
+		  					 }	
+
+		 		 .Section_box{ width:250px;
+		  					   height: 350px; 	
+		  					   position: relative;
+		  					   float: left;
+	   				   		   margin-right: 50px;	
+
+	   				   		   border:2px solid #1A3540;	
+	  				   		   border-radius:2em;
+
+	  				   		   transition: all 500ms ease-out;
+
+
+		  						}
+
+		  		#Xbox{background:url(logotipo-de-xbox.png);
+		  		 
+		  		 background-position: 25px 30px;
+		  		 background-size:80% 55%;
+		  		 background-repeat: no-repeat;
+
+		  		}	
+
+
+		  		#PS4{background:url(PS4.png);
+		  		 
+		  		 background-position: 25px 30px;
+		  		 background-size:80% 55%;
+		  		 background-repeat: no-repeat;
+
+		  		}
+
+		  		#Steam{background:url(Steam.png);
+		  		 
+		  		 background-position: 25px 30px;
+		  		 background-size:80% 55%;
+		  		 background-repeat: no-repeat;
+
+		  		}	
+
+		  				#Xbox:hover{  width:250px;
+		  					   		  height: 350px;
+
+		  					   	    border-radius: 0em;				 		
+		  					 		background:url(Halo.webp); 
+		  					    	background-repeat: no-repeat;
+		  					    	background-position: -4px -2px;
+		  					    	background-size:260px 74%;
+		  					    	margin-top: -15px;
+		  					    	transition: all 500ms ease-out;	
+		  					    	opacity: 1;				   		   
+
+		  						}
+
+
+
+		  				#PS4:hover{  width:250px;
+		  					   		  height: 350px;
+
+  	  					   		    border-radius: 0em;				 		
+		  					 		background:url(Horizon.jpg); 
+		  					    	background-repeat: no-repeat;
+		  					    	background-position: -4px -2px;
+		  					    	background-size:260px 74%;
+		  					    	margin-top: -15px;
+		  					    	transition: all 500ms ease-out;	
+		  					    	opacity: 1;				   		   
+
+		  						}		
+
+		  				#Steam:hover{  width:250px;
+		  					   		  height: 350px;
+
+		  					   	    border-radius: 0em;				 		
+		  					 		background:url(LOL.jpg); 
+		  					    	background-repeat: no-repeat;
+		  					    	background-position: -4px -2px;
+	 	  					    	background-size:260px 74%;
+	 	  					    	margin-top: -15px;
+		  					    	transition: all 500ms ease-out;	
+		  					    	opacity: 1;				   		   
+
+		  						}				
+					
+				 .Section_Box_Info{	width: 100%;
+				 				margin-left: -2px;
+		 						height: 100px;
+		 						margin-top: 100%;
+
+	 							background: #D7D7D7;
+	 							border: 2px solid #1A3540;
+
+	 							transition: all 500ms ease-out;
+		 						}
+		 						#Xbox:hover > .Section_Box_Info { 	width: 100%;
+				 				margin-left: -2px;
+		 						height: 100px;
+		 						margin-top: 100%;
+
+	 							background: #418234;
+	 							border: 2px solid #1A3540;
+		  						}	
+
+		  						#PS4:hover > .Section_Box_Info { 	width: 100%;
+				 				margin-left: -2px;
+		 						height: 100px;
+		 						margin-top: 100%;
+
+	 							background: #003BA7;
+	 							border: 2px solid #1A3540;
+		  						}		
+
+		  						#Steam:hover > .Section_Box_Info { 	width: 100%;
+				 				margin-left: -2px;
+		 						height: 100px;
+		 						margin-top: 100%;
+
+	 							background: #4E4E4E;
+	 							border: 2px solid #1A3540;
+		  						}	
+
+		 		.info_games{ text-align: center; 
+
+		 					font-family: Microsoft Sans Serif; 
+		 					margin-top: 10px;
+
+		 					}	
+
+
+
+        .BoxEquipo{  width: 650px;
+		  				height: 160px; 
+		  				position: relative;
+		  				
+		  				left: -36px;
+		  				top: 10px;	
+						margin: auto;
+
+
+						padding: 30px;	  		  				
+  		  				background: #A9A9A9;
+  		  				border-radius: 5em;
+        			}
+
+        
+        			.BoxEquipo_Descripcion{	width:400px;
+
+        									left:120px;	
+        									bottom: 10px;
+        									 
+        								position: relative;
+        								background: FFFFFF;
+        								}	
+
+
+        			.BoxEquipo_Integrantes{	width: 110px;
+        								height: 45px;
+        								margin-top: 9px;
+        								top: 10px;
+        								left:45px;
+        								margin-right: 40px ;
+        								background: 413A3A;
+        								position: relative;
+        								float: left;
+
+
+        							}	
+
+		        	#fotos {	top: 10px;
+		        				left: 32px;
+
+        						width: 50px;
+        						height: 50px;
+   								background: url(Usuario.png);
+   								background-size:50px 50px;
+   								background-repeat: no-repeat;
+ 								position: relative;
+  								float: left;
+        					} 	
+
+        .BoxInfo_Descripcion{  	position: relative;
+        					   	width: 650px;
+		  						height: 120px; 
+		  						position: relative;
+
+		  						padding: 10px;
+		  						margin: auto;
+		  						top: 70px;
+		  						left: -36px;
+        						background: #A9A9A9;
+
+        						border-radius: 4em;
+
+        						}									
+
+
+#footer{ position: relative;
+		 height: 20%;
+		 background: #1A3540;	
+
+
+	}
+
+
+		.info{position: relative;
+				 float: left;
+				 margin-right: 50px;	}
+
+
+ 		#ul1{list-style-type: none;}
+
+		.lista{margin: 10px;}
