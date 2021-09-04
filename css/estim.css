@@ -1,117 +1,107 @@
 *{
-
 	margin:  0;
 	padding: 0;
-
+	text-decoration: none;
 }
 
 #contenedor{ 
 	width: 100%;
-	height: 1000px;
-	
-	
+	height: auto;
+	background-size: 5000px;
+	background: linear-gradient(90deg, rgb(0, 0, 0) 20%, rgb(45, 57, 94) 100%);
 	 }
 
-
 #cabecera{
-	background: rgb(101,101,101);
-background: linear-gradient(90deg, rgba(101,101,101,1) 0%, rgba(0,0,0,1) 50%);
-height: 12%;
+	height: 130px;
+	width: 100%;
+	position: relative;
+	background: linear-gradient(90deg, rgb(0, 0, 0) 20%, rgb(45, 57, 94) 100%);
+}
+
+#cabecera:hover{
+	border-bottom: 1px solid #ffffff ;
 }
 
 header{position:  relative;
-
-	
-	
-	height:100%;
+	height:130px;
 	width: 40%;
-	float: left;
-	
-	 
+	float: left;		 
 }
 
-	  #logoimg{
-		  height: 90%;
-		  width: 22%; 
-		  float: left;
-		
-		  margin-left: 20px;
-		
-		  
-
-
+#logoimg{
+	height: 130px;
+	width: 22%; 
+	float: left;	
+	margin-left: 20px;
 	  }
-	  #logotxt{
-		height: 60%;
-		width: 60%; 
+
+#logotxt{
+		height: 80px;
+		width: 70%; 
+		margin-top: 35px;
+		margin-bottom: 15px;
 		float: left;
-		margin-top: 40px;
-
-
-
-
 	  }
 
 nav{ position:  relative;
-	height:100%;
+	height:130px;
 	width: 60%;
 	float: right;
-	
-  
-
-
 }
 
 #contactinfo{
-	
-		
-	height: 50%;
+	height: 65px;
 	width: 80%;
-	bottom: 20%;
 	border-radius: 1em;
-	background: #FFFFFF;
+	background: #3e5872;
 	float: right;		 
 	margin-top: 30px;
 	margin-right: 50px;
-
+}
+#contactinfo:hover{
+	border: 1px solid #ffffff ;
 }
 nav p{
 width: 15%;
 height: 60%;
 float: left;
-margin: 0px 0px 25px 0px;
+margin: 1px 0px 25px 0px;
 text-align:center;
 padding-top: 12px;
 padding-bottom: 12px;
 font-family: sans-serif;
-color: black;
+color: rgb(209, 209, 209);
 font-weight: bold;
 }
+
 nav p:hover{
-background:#000000;
+background:#2e4d6b;
 color: #FFFFFF;
+}
 
-
+#primerp:hover{
+	background:#2e4d6b;
+	color: #FFFFFF;
+	border-top-left-radius: 1em;
+	border-bottom-left-radius: 1em;
 }
 
 #icons{
 width: 25%;
-height: 100%;
+height: 65px;
 float: right;
 margin: auto auto auto auto;
 padding-right: 20px ;
-background:#ffffff;
+background:#3e5872;
 border-top-right-radius:    1em;
 border-bottom-right-radius: 1em;
-filter: invert(0%);
 }
 
 #icons:hover{
-	filter: invert(100%);
+background-color:#24405c ;
 border-top-right-radius:    1em;
 border-bottom-right-radius: 1em;
 }
-
 
 .icon{
 float: right;
@@ -119,20 +109,211 @@ margin: 20px 5px 20px 5px;
 display:block;
 }
 
-aside{ height: 100%;
+#aside{ height: 3750px;
 	width: 15%;
-	background: #CACACA; 
-	position: fixed;
-	
-	float: left;}
-
-	main{
-		border-left: red 200px solid;	
-		padding-left: 200px;
-		
-
-	}
-.games{
-	position: relative;
-	float:right;
+	top: 145px;
+	float: left;
 }
+
+#aside ul{
+	top:165px;
+	width: 15%;
+	height:auto;
+	position: fixed;
+}
+
+#aside ul .asideplace{
+height: 60px;
+width: 90%;
+margin-bottom: 3px;
+background-color: rgb(60, 110, 175);
+padding-left: 10px;
+padding-top: 5px;
+}
+
+#aside ul .asideplace:hover{
+	width: 100%;
+}
+
+#aside ul .asideplace li a{
+	color: rgb(224, 224, 224);
+	font-family: 'Segoe UI';
+	font-weight:normal;
+	font-size: 15pt;
+}
+
+#aside ul .asideplace li a:hover{
+	color: rgb(255, 255, 255);
+	font-size: 16pt;	
+}
+#asidetop{
+	border-top-right-radius: 2em;
+}
+
+#asidebottom{
+	border-bottom-right-radius: 2em;
+}
+
+main{
+		width: 85%;
+		height: 3750px;	
+		margin-left: 15%;
+		margin-top: 15px;
+	}
+
+#container2{
+background-color: #2e4d6b;
+width: 80%;
+height: 100%;
+margin-left: 120px;
+border: 5px solid #081527 ;
+border-radius: 2em;
+}
+
+.games{
+	width:850px;
+	height: auto;
+	float:right;
+	margin: 30px 30px 30px auto;
+}
+
+.games:hover{
+background-color:#365675;
+border-radius: 1em;
+}
+
+.gameimage{
+width: 250px;
+height: 300px;
+float:right;
+margin-bottom: auto;
+margin-right: 20px;
+}
+
+.games h1{	
+margin: 20px 20px 20px 20px;
+font-family: sans-serif;
+color: rgb(218, 218, 218);
+font-weight:normal;
+font-size: 30pt;
+}
+
+.games h1:hover{
+	font-family: sans-serif;
+	color: rgb(255, 255, 255);
+	font-weight:normal;
+	font-size: 32pt;
+}
+
+.games h2{
+	font-family: sans-serif;
+	color: rgb(218, 218, 218);
+	font-weight:normal;
+	font-size: 20pt;
+}
+
+.games p{
+	margin-left: 20px;
+	width: 60%;
+	height: auto;
+	float: left;
+}
+
+.reseña{
+	font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+	color: rgb(218, 218, 218);
+	font-weight:normal;
+	font-size: 12pt;
+}
+
+.rankgamegraph{
+	width: 550px;
+	height: 110px;
+	margin: 10px 15px 10px auto;
+	float:left;
+	padding-left: 5px;
+}
+
+.rank{
+	width:95px;
+	height: 100px;
+	float: left;
+	margin: 20px 5px auto 5px;
+	vertical-align:middle;		
+}
+
+.rank p{
+	margin-top: 5px;
+	font-family: sans-serif;
+	color: rgb(218, 218, 218);
+	font-weight:normal;
+	font-size: 9pt;
+	margin-left: 10px;
+}
+
+.gametable{
+	width:800px;
+ 	float:right;
+ 	margin:20px 30px 20px auto;
+ 	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+table {
+	width: 100%;
+	border: 1px solid rgb(214, 214, 214);
+	border-spacing: 0;
+ }
+
+.gametable h2{
+	margin-bottom: 20px;
+	color: #ffffff;}
+
+.gametable th, td {
+   width: 25%;
+   text-align: center;
+   vertical-align: top;
+   border: 1px solid rgb(255, 255, 255);
+   color:rgb(214, 214, 214); ;
+}
+
+.gametable ul{
+	list-style: none;
+
+}
+
+#footer{ position: relative;
+	height: 200px;
+	background-image:url(https://i.ibb.co/DMFLdvj/csgofooter.jpg);
+	color: #ffffff;
+	font-family: sans-serif;
+	font-weight:normal;
+	font-size: 12pt;
+	padding-top: 20px;
+}
+
+#nombres{	
+float: left;
+height: 150px;
+width: auto;
+padding-left: 20px;
+margin-left: 200px;
+}
+
+#nombres ul,li{
+
+	list-style: none;
+	margin-bottom: 5px;
+}
+
+#correos{
+	
+	float: right;
+	height: 150px;
+	width: auto;
+	margin-right: 200px;
+}
+
+#correos ul{
+	list-style: none;
+}
+
