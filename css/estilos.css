@@ -24,7 +24,7 @@ font{ font-family: Microsoft Sans Serif;}
 
 		#header{position:  relative;
 
-				background: url(Ranked.png);
+				background: url(../img/Ranked.png);
 				background-size: 90px 90px;
 				background-repeat: no-repeat ;
 				background-position: left ;
