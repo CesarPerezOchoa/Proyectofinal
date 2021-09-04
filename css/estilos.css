@@ -42,12 +42,14 @@ font{ font-family: Microsoft Sans Serif;}
 			  				margin: auto;
 			  				float: left;
 			  				height: 100%;
-			  				width: 350%;
+			  				width: 110%;
 			  				background: url(../img/principal/titulo.png);
+			  				ackground: black;
 			  				left: 40%;
-			  				top: 37%;
+			  				top: 10%;
 			  				aackground: black;
-							background-size: 300px 38px;
+							background-size:300px 38px;
+							background-position: 0px 25px;
 							background-repeat: no-repeat;
 
 			  				}
