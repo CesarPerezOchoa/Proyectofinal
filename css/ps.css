@@ -6,16 +6,17 @@
 
 #contenedor{ 
 	width: 100%;
-	height: 3020px;
-	background-size: 5000px;
-	background: rgb(255, 255, 255) 
+	height: 3050px;
+background: linear-gradient(90deg, white, #3B8EEA 80%); 
 	 }
 
 #cabecera{
 	height: 130px;
 	width: 100%;
 	position: relative;
-	background: #06223d 
+	background: #06223d;
+	box-shadow: inset 9px -63px 64px -38px rgba(0,0,0,1);
+
 }
 
 #cabecera:hover{
@@ -50,12 +51,12 @@ nav{ position:  relative;
 }
 
 #contactinfo{
-	height: 65px;
+	height: 50px;
 	width: 80%;
 	border-radius: 1em;
 	background: #3e5872;
 	float: right;		 
-	margin-top: 30px;
+	margin-top: 40px;
 	margin-right: 50px;
 }
 #contactinfo:hover{
@@ -88,7 +89,7 @@ color: #FFFFFF;
 
 #icons{
 width: 25%;
-height: 65px;
+height: 50px;
 float: right;
 margin: auto auto auto auto;
 padding-right: 20px ;
@@ -105,7 +106,7 @@ border-bottom-right-radius: 1em;
 
 .icon{
 float: right;
-margin: 20px 5px 20px 5px;
+margin: 15px 5px 20px 5px;
 display:block;
 }
 
@@ -113,9 +114,11 @@ display:block;
 	width: 15%;
 	top: 145px;
 	float: left;
+	
 }
 
 #aside ul{
+	
 	top:165px;
 	width: 15%;
 	height:auto;
@@ -144,7 +147,7 @@ padding-top: 5px;
 
 #aside ul .asideplace li a:hover{
 	color: rgb(255, 255, 255);
-	font-size: 16pt;	
+		
 }
 #asidetop{
 	border-top-right-radius: 2em;
@@ -155,6 +158,7 @@ padding-top: 5px;
 }
 
 main{
+
 		width: 85%;
 		height: 2850px;	
 		margin-left: 15%;
@@ -167,7 +171,8 @@ width: 80%;
 height: 100%;
 margin-left: 120px;
 border: 5px solid #12458d ;
-border-radius: em;
+border-radius: 2em;
+bottom: 5px;
 }
 
 .games{
@@ -282,18 +287,20 @@ table {
 }
 
 #footer{ position: relative;
-	height: 200px;
-	background-image:url(https://i.ibb.co/DMFLdvj/csgofooter.jpg);
+
+	top: 30px;
+	height: 115px;
+	background: #06223d;
 	color: #ffffff;
 	font-family: sans-serif;
-	font-weight:normal;
-	font-size: 12pt;
+	
+	
 	padding-top: 20px;
 }
 
 #nombres{	
 float: left;
-height: 150px;
+height: 100px;
 width: auto;
 padding-left: 20px;
 margin-left: 200px;
@@ -308,7 +315,7 @@ margin-left: 200px;
 #correos{
 	
 	float: right;
-	height: 150px;
+	height: 100px;
 	width: auto;
 	margin-right: 200px;
 }

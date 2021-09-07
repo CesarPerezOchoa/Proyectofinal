@@ -147,7 +147,7 @@ font{ font-family: Microsoft Sans Serif;}
 
 			  							}	
 
-#contenido{ height:100%;
+#contenido{ height:120%;
 			background:  #161D30;
 			
 			}
@@ -217,7 +217,7 @@ font{ font-family: Microsoft Sans Serif;}
 
 
 #section{ position: relative;
-		  height: 98%;
+		  height: 100%;
 		  width: 86%;
 		  background:#E0E0E0;
 		  
@@ -359,7 +359,7 @@ font{ font-family: Microsoft Sans Serif;}
 
 
         .BoxEquipo{  width: 800px;
-		  				height: 160px; 
+		  				height: 300px; 
 		  				position: relative;
 		  				
 		  				left: -36px;
@@ -374,6 +374,25 @@ font{ font-family: Microsoft Sans Serif;}
   		  				border: 1px solid #808080;
         			}
 
+
+
+        			.BoxEquipo_miembros1{   position: relative;
+        									width: 100%;
+        									height: 30%;
+        									
+
+        			}
+
+        			.BoxEquipo_miembros2{
+
+        									position: relative;
+        									top: 10px;
+        									width: 100%;
+        									height: 30%;
+        									
+        			}
+
+
         
         			.BoxEquipo_Descripcion{	width:400px;
 
@@ -382,7 +401,8 @@ font{ font-family: Microsoft Sans Serif;}
         									 
         								position: relative;
         								background: 14FaFF;
-        								}	
+        								}			
+
 
 
         			.BoxEquipo_Integrantes{	width: 110px;
@@ -396,7 +416,15 @@ font{ font-family: Microsoft Sans Serif;}
         								float: left;
 
 
-        							}	
+        							}
+        										
+        								
+        								
+
+
+        											
+
+
 
 		        	#fotos {	top: 10px;
 		        				left:115px;
@@ -437,7 +465,7 @@ font{ font-family: Microsoft Sans Serif;}
 
 
 #footer{ position: relative;
-		 height: 20%;
+		 height: 13%;
 		 background: #091B27;
 		box-shadow: inset 9px -63px 64px -38px rgba(0,0,0,1);
 	}

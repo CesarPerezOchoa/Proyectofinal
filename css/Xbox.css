@@ -8,14 +8,15 @@
 	width: 100%;
 	height: 3020px;
 	background-size: 5000px;
-	background: linear-gradient(90deg, rgb(0, 0, 0) 20%, rgb(77, 143, 4) 80%); /*color fondo pagina */ 
+	background: linear-gradient(90deg, white, rgb(77, 143, 4) 80%); /*color fondo pagina */ 
 	 }
 
 #cabecera{
 	height: 130px;
 	width: 100%;
 	position: relative;
-	background:  linear-gradient(90deg, rgb(0, 0, 0) 20%, rgb(77, 143, 4) 80%);/*color fondo parte superior */ 
+	background: #005C06;/*color fondo parte superior */ 
+	box-shadow: inset 9px -63px 64px -38px rgba(0,0,0,1);
 }
 
 #cabecera:hover{
@@ -44,18 +45,18 @@ header{position:  relative;
 	  }
 
 nav{ position:  relative;
-	height:130px;
+	height:110px;
 	width: 60%;
 	float: right;
 }
 
 #contactinfo{
-	height: 65px;
+	height: 50px;
 	width: 80%;
 	border-radius: 1em;
-	background: #000000;/*color recuadros contactos*/ 
+	background: #E9E9E9;/*color recuadros contactos*/ 
 	float: right;		 
-	margin-top: 30px;
+	margin-top: 40px;
 	margin-right: 50px;
 }
 #contactinfo:hover{
@@ -70,7 +71,7 @@ text-align:center;
 padding-top: 12px;
 padding-bottom: 12px;
 font-family: sans-serif;
-color: rgb(255, 255, 255);/*color letra equipo+*/ 
+color: black;/*color letra equipo+*/ 
 font-weight: bold;
 }
 
@@ -88,11 +89,11 @@ color: #FFFFFF;/*color letra equipo+*/
 
 #icons{
 width: 25%;
-height: 65px;
+height: 50px;
 float: right;
 margin: auto auto auto auto;
 padding-right: 20px ;
-background:#000000; /*color recuadro iconos */ 
+background: #E9E9E9; /*color recuadro iconos */ 
 border-top-right-radius:    1em;
 border-bottom-right-radius: 1em;
 }
@@ -105,7 +106,7 @@ border-bottom-right-radius: 1em;
 
 .icon{
 float: right;
-margin: 20px 5px 20px 5px;
+margin: 15px 5px 20px 5px;
 display:block;
 }
 
@@ -126,7 +127,7 @@ display:block;
 height: 60px;
 width: 90%;
 margin-bottom: 3px;
-background-color: rgb(79, 208, 19 );/*color recuadro enlaces */ 
+background-color: #85de23;/*color recuadro enlaces */ 
 padding-left: 10px;
 padding-top: 5px;
 }
@@ -136,7 +137,7 @@ padding-top: 5px;
 }
 
 #aside ul .asideplace li a{
-	color: rgb(255, 255, 255);/*color texto enlaces */ 
+	color: #363636;/*color texto enlaces */ 
 	font-family: 'Segoe UI';
 	font-weight:normal;
 	font-size: 15pt;
@@ -162,12 +163,12 @@ main{
 	}
 
 #container2{
-background-color: #6cc904; /* recuadro interno juegos*/ 
+background-color: #3E8838; /* recuadro interno juegos*/ 
 width: 80%;
 height: 100%;
 margin-left: 120px;
 border: 5px solid #65bd02; /* recuadro juegos*/ 
-border-radius: em;
+border-radius: 2em;
 }
 
 .games{
@@ -282,8 +283,10 @@ table {
 }
 
 #footer{ position: relative;
-	height: 200px;
-	background-image:url(https://i.ibb.co/DMFLdvj/csgofooter.jpg);
+
+	top: 20px;
+	height:110px;
+	background: #005C06;
 	color: #ffffff;
 	font-family: sans-serif;
 	font-weight:normal;
@@ -293,7 +296,7 @@ table {
 
 #nombres{	
 float: left;
-height: 150px;
+height: 100px;
 width: auto;
 padding-left: 20px;
 margin-left: 200px;
@@ -308,7 +311,7 @@ margin-left: 200px;
 #correos{
 	
 	float: right;
-	height: 150px;
+	height: 100px;
 	width: auto;
 	margin-right: 200px;
 }
